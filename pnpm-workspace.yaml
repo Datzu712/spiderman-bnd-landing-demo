@@ -1,0 +1,13 @@
+# 24h de cuarentena para versiones recién publicadas (subir a 10080 = 7 días
+# cuando las dependencias actuales superen esa ventana).
+minimumReleaseAge: 1440
+
+trustPolicy: no-downgrade
+
+# semver 6.3.1 (2023) es anterior a npm provenance; su integridad coincide
+# con el registro, el "downgrade" es solo metadato de confianza.
+trustPolicyExclude:
+    - semver@6.3.1
+
+allowBuilds:
+    esbuild: true
