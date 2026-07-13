@@ -4,7 +4,7 @@ Fan-made interactive landing page inspired by _Spider-Man: Brand New Day_. Built
 
 **Live demo:** <https://spiderman-demo-midu.pages.dev/>
 
-[![Hero section of the landing page](public/images/preview-1.png)](https://spiderman-demo-midu.pages.dev/)
+[![Hero section of the landing page](docs/preview-1.png)](https://spiderman-demo-midu.pages.dev/)
 
 ## Requirements
 
